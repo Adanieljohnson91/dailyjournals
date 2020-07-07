@@ -1,0 +1,67 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    box-sizing: border-box;
+    /* margin: 0em 70em 0em 0em; */
+    border: 1px #ccc solid;
+    border-radius: 2em;
+    background-color: aliceblue;
+    box-shadow: .5px .5px 15px #888888;
+    width: 25%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+    font-family: Courier, monospace;
+    text-align: center;
+}
+.box-color-fill {
+    background-color: ivory;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    font-family: Courier, monospace;
+}
+.journal-entry-button {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(82, 123, 255);
+   
+}
+.column {
+    display: flex;
+    
+}
+.container-2{
+    box-sizing: border-box;
+    /* margin: 0em 70em 0em 0em; */
+    border: 1px #ccc solid;
+    border-radius: 2em;
+    background-color: aliceblue;
+    box-shadow: .5px .5px 15px #888888;
+    width: 25%;
+    padding: 1em;
+    display: flex;
+    margin-left: 2em;
+    flex-direction: column;
+}
+.container-2-title{
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+    font-family: Courier, monospace;
+    text-align: center;
+}
+.hidden  {
+    display: none;
+}
